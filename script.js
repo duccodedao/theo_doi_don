@@ -7,10 +7,10 @@ document.addEventListener("DOMContentLoaded", function() {
             server: "Server 2", // Máy chủ
             quantity: 3000, // Số lượng
             start: "0", // Bắt đầu
-            increase: 2300, //Đã tăng
+            increase: 4100, //Đã tăng
             price: 15000, //Đơn giá
             total: 45000, //Tổng cộng
-            status: "Đang chạy" //Trạng thái
+            status: "Đã hoàn thành" //Trạng thái
         },
         // Các đơn hàng khác
         { 
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
             server: "Server 1", // Máy chủ
             quantity: 2000, // Số lượng
             start: "0", // Bắt đầu
-            increase: 550, //Đã tăng
+            increase: 1800, //Đã tăng
             price: 32000, //Đơn giá
             total: 64000, //Tổng cộng
             status: "Đang chạy" //Trạng thái
