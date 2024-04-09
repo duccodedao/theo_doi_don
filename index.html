@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng Thông Tin Đơn Hàng</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Thông Tin Đơn Hàng</h1>
+        <div class="search-form">
+            <form id="searchForm">
+                <input type="text" id="searchInput" placeholder="Nhập mã đơn...">
+                <input type="submit" value="Tìm Kiếm">
+            </form>
+        </div>
+        <div class="table-container">
+            <table id="orderTable" class="hidden">
+                <thead>
+                    <tr>
+                        <th>Tên Page</th>
+                        <th>Mã Đơn</th>
+                        <th>ID Page</th>
+                        <th>Máy Chủ</th>
+                        <th>Số Lượng</th>
+                        <th>Bắt Đầu</th>
+                        <th>Đã Tăng</th>
+                        <th>Giá</th>
+                        <th>Tổng Thanh Toán</th>
+                        <th>Trạng Thái</th>
+                    </tr>
+                </thead>
+                <tbody id="orderTableBody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="script.js"></script>
+</body>
+</html>
